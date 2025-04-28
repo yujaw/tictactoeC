@@ -1,16 +1,61 @@
-# Tic Tac Toe
-### By Yujaw Manandhar
+# 🎮 Tic Tac Toe
 
-## For macOS
-* Clone the repository `git clone https://www.github.com/yujaw/tictactoeC`
-* Open Terminal and go to the folder
-* Make sure you have gcc installed and ready to run
-* Build the file `gcc -o tictactoe.out main.c`
-* Run the file `./tictactoe.out`
+## 🌟 Overview
+Tic Tac Toe is a simple command-line game implemented in C. This project demonstrates basic programming concepts and is compatible with both macOS and Windows systems.
 
-## For Windows
-* Clone the repository `git clone https://www.github.com/yujaw/tictactoeC`
-* Open Terminal and go to the folder
-* Make sure you have gcc installed and ready to run
-* Build the file `gcc -o tictactoe.exe main.c`
-* Run the file `./tictactoe.exe`
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+Ensure you have the following installed on your system:
+- 🛠️ GCC (GNU Compiler Collection)
+
+### 📥 Installation and Usage
+
+#### 🍎 For macOS
+1. 🌀 Clone the repository:
+    ```bash
+    git clone https://www.github.com/yujaw/tictactoeC
+    ```
+2. 📂 Navigate to the project folder:
+    ```bash
+    cd tictactoeC
+    ```
+3. 🏗️ Build the program:
+    ```bash
+    gcc -o tictactoe.out main.c
+    ```
+4. ▶️ Run the program:
+    ```bash
+    ./tictactoe.out
+    ```
+
+#### 🖥️ For Windows
+1. 🌀 Clone the repository:
+    ```bash
+    git clone https://www.github.com/yujaw/tictactoeC
+    ```
+2. 📂 Navigate to the project folder:
+    ```bash
+    cd tictactoeC
+    ```
+3. 🏗️ Build the program:
+    ```bash
+    gcc -o tictactoe.exe main.c
+    ```
+4. ▶️ Run the program:
+    ```bash
+    .\tictactoe.exe
+    ```
+
+#### 🐳 Using Docker
+1. 🏗️ Build the Docker image:
+    ```bash
+    docker build -t tictactoe .
+    ```
+2. ▶️ Run the Docker container:
+    ```bash
+    docker run --rm -it tictactoe
+    ```
+
+## 📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.

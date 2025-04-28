@@ -7,8 +7,4 @@ WORKDIR /app
 # Copy the C source code into the container
 COPY . .
 
-# Compile the C program
-RUN gcc -o tic_tac_toe main.c
-
-# Set the default command to run the compiled program
-CMD ["./tic_tac_toe"]
+CMD ["sh", "-c", "gcc main.c -o game.out && ./game.out"]
