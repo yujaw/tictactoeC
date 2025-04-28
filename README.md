@@ -11,38 +11,35 @@ Ensure you have the following installed on your system:
 
 ### 📥 Installation and Usage
 
+Clone the repository:
+```bash
+git clone https://www.github.com/yujaw/tictactoeC
+```
+
 #### 🍎 For macOS
-1. 🌀 Clone the repository:
-    ```bash
-    git clone https://www.github.com/yujaw/tictactoeC
-    ```
-2. 📂 Navigate to the project folder:
+1. 📂 Navigate to the project folder:
     ```bash
     cd tictactoeC
     ```
-3. 🏗️ Build the program:
+2. 🏗️ Build the program:
     ```bash
     gcc -o tictactoe.out main.c
     ```
-4. ▶️ Run the program:
+3. ▶️ Run the program:
     ```bash
     ./tictactoe.out
     ```
 
 #### 🖥️ For Windows
-1. 🌀 Clone the repository:
-    ```bash
-    git clone https://www.github.com/yujaw/tictactoeC
-    ```
-2. 📂 Navigate to the project folder:
+1. 📂 Navigate to the project folder:
     ```bash
     cd tictactoeC
     ```
-3. 🏗️ Build the program:
+2. 🏗️ Build the program:
     ```bash
     gcc -o tictactoe.exe main.c
     ```
-4. ▶️ Run the program:
+3. ▶️ Run the program:
     ```bash
     .\tictactoe.exe
     ```
