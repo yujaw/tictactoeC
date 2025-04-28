@@ -53,6 +53,3 @@ git clone https://www.github.com/yujaw/tictactoeC
     ```bash
     docker run --rm -it tictactoe
     ```
-
-## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
